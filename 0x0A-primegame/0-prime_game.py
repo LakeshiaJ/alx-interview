@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"0-prime_game.py"
-def isWinner(x, nums):
-    """Determines the winner of the prime game.
-    Args:
+"""0x0A. Prime Game module"""
+def isWinner(x: int, nums):
+    """Prime Game function"""
+    if not nums or x < 1 or x != len(nums):
